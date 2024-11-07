@@ -24,6 +24,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
+          distribution: 'temurin'
           java-version: '1.8'
       - name: Setup Go environment
         uses: actions/setup-go@v5
